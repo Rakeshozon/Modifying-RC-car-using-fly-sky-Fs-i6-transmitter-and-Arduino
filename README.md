@@ -37,7 +37,34 @@ This project is an Arduino-based RC car controlled using an FS-i6 transmitter. T
 3. Connect the components as per the wiring diagram.
 4. Power on the FS-i6 transmitter and receiver.
 5. Control the car using the FS-i6 joystick.
+## Code Files
 
+* `RC_Car_FlySky_Control.ino`: Arduino code that reads signals from the FlySky receiver, interprets them, and controls the motors using the L298N driver.
+
+## Setup and Installation
+
+1.  **Hardware Connections:**
+    * Connect the FlySky FS-iA6B receiver's channels to the Arduino Nano/UNO's digital input pins. (Refer to the code for specific pin assignments.)
+    * Connect the Arduino's digital output pins to the L298N motor driver's input pins.
+    * Connect the L298N motor driver's output pins to the RC car's motors.
+    * Connect the L298N to the power supply.
+    * Connect the Arduino to the power supply.
+    * Ensure all ground connections are common.
+2.  **Arduino IDE Setup:**
+    * Install the Arduino IDE if you haven't already.
+    * Connect your Arduino uno to your computer.
+    * Open the `RC_Car_FlySky_Control.ino` file in the Arduino IDE.
+    * Select the correct board and port.
+    * Upload the code to your Arduino Nano.
+3.  **FlySky FS-i6 Setup:**
+    * Bind the reciever to the transmitter.
+    * Calibrate the transmitter sticks if neccesary.
+
+## Usage
+
+* Power on the RC car and the FlySky FS-i6 transmitter.
+* Use the transmitter's sticks to control the RC car's movement.
+* 
 ## Code Explanation
 - The `readChannel` function reads PWM signals from the FS-i6 receiver.
 - Steering is controlled using Motor A, mapped from FS-i6 CH1.
