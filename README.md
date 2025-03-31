@@ -31,7 +31,7 @@ This project is an Arduino-based RC car controlled using an FS-i6 transmitter. T
 ## Installation & Usage
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Rakeshozon/Modifying-RC-car-using-fly-sky-Fs-i6-transmitter-and-Arduino.git
    ```
 2. Open the Arduino IDE and upload the provided code to your Arduino board.
 3. Connect the components as per the wiring diagram.
@@ -57,6 +57,6 @@ This project is open-source under the MIT License. Feel free to modify and enhan
 
 ---
 ### Author
-[Your Name]  
-GitHub: [Your GitHub Profile]
+[Rakesh ]  
+GitHub: [https://github.com/Rakeshozon]
 
